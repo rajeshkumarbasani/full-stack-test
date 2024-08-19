@@ -1,11 +1,9 @@
 # Full Stack Test
 WPoets Full Stack Developer Test
 
-Hi Full-stacker!
+Hi WPoets!
 
-Great that you're interested in this exercise! Thanks a lot for making it. The exercise consits of an assignment. It is related to the WPoets working ways. Good luck and we are looking forward to hearing from you soon!
-
-To complete these assignment you need to fork this repo. When you're done you can push your changes to your own repo (and let us know where to find it ofcourse).
+Thank you for giving me the opportunity to demonstrate my skills through the interview test. I have completed and submitted the required materials for your review.
 
 <h2>Task</h2>
 <ul>
@@ -39,9 +37,111 @@ To complete these assignment you need to fork this repo. When you're done you ca
 
 <h2>Technical questions</h2>
 
+Note : Create new database and import data from adminrb/backup.sql and update the new connections details in adminrb/config.php
+
 Please answer the following questions in a markdown file called <code>Answers to technical questions.md</code>
 <ul>
-  <li>How long did you spend on the coding test? What would you add to your solution if you had more time? If you didn't spend much time on the coding test then use this as an opportunity to explain what you would add.</li>
-	<li>How would you track down a performance issue in production? Have you ever had to do this?</li>
-	<li>Please describe yourself using JSON.</li>
+  <li>How long did you spend on the coding test? What would you add to your solution if you had more time? If you didn't spend much time on the coding test then use this as an opportunity to explain what you would add.<br/>
+  Ans : Its has taken around 22-24 hours taken to complete the task and added some features in it
+	<ul>
+		<li>Admin Section - Admin Login</li>
+		<li>Tab Module - Tab ID, Name, Icon (SVG format), Order, Status, [added and updated by user is in backend] and Total Sliders (Dynamic Count)</li>
+		<li>Slider Module - Slider ID, Heading, Subheading, Button Text, Button Link, Desktop Image, Mobile Image, Order By, Status, Ref Tab ID [added and updated by user is in backend]</li>
+		<li>Front End - Eash headline slider can syn with its image </li>
+	</ul>
+  Need additional time to fix the issue in responisve.
+  </li>
+	<li>How would you track down a performance issue in production? Have you ever had to do this?<br/>
+	Ans : Will use the google pagespeed to track down a performance in production site and some testing tools (for backend)</li>
+	<li>Please describe yourself using JSON.<br/>Ans: <br/>
+	
+	{
+  "basics": {
+    "name": "Rajeshkumar Basani",
+    "label": "",
+    "picture": "https://shorturl.at/EszSP",
+    "email": "raj358822@gmail.com",
+    "phone": "+91-9890358822",
+    "degree": "B.Com / DIT",
+    "website": "https://www.linkedin.com/in/rajeshbasani/",
+    "summary": "12 years experience in web development. Currently working in PHP, Wordpress, Javascript, Bootstrap. Founder and Lead Developer at Rajeshwari Infotech - A proprietary company (2011-2016) - Developed multiple Web sites and customized web based application.",
+    "location": {
+      "address": "A5, 404, Sunshine Hills, Pisoli, Undri",
+      "postalCode": "411060",
+      "city": "Pune",
+      "countryCode": "IN",
+      "region": "Maharashtra"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "rajeshbasani",
+        "url": "https://www.linkedin.com/in/rajeshbasani/"
+      }
+    ]
+  },
+  "previous working company": [
+    {
+      "company": "Nutshell Advertising Pvt Ltd",
+      "position": "Senior Web Developer",
+      "website": "https://nutshelladvertising.com/",
+      "startDate": "2021-02-01",
+      "endDate": "2024-07-31",
+      "summary": "Developing and maintaining Websites using PHP, HTML, CSS, Javascript and WordPres. Providing customized themes for WordPress. Handling PSD to HMTL/WordPres for seamless visual experience. Payment gateway integrations in woo-commerce websites.",
+      "highlights": [
+        "Notable creative projects - madandco.in",
+        "Notable e-commerce projects --  WordPress - sidsfarm.com, Shopify - balancebreens.com"
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "NIIT",
+      "course": "Certificate in Information Technology"
+    },
+    {
+        "institution": "DAV Velankar College of Commerce, Solapur",
+        "course": "B.Com"
+      }
+  ],
+
+  "skills": [
+    {
+      "name": "WordPress",
+      "level": "",
+      "keywords": [
+        "PSD to Wordpress", "Use less plugins", "Optimise Website"
+      ]
+    },
+    {
+        "name": "Core PHP",
+        "level": "",
+        "keywords": [
+          "Develope Web Application", "Optimise Website"
+        ]
+      }
+  ],
+  "languages": [
+    {
+      "language": "Telugu",
+      "fluency": "Pre-intermediate"
+    }, 
+    {
+        "language": "Marathi",
+        "fluency": "Intermediate"
+    }, 
+    {
+        "language": "Hindi",
+        "fluency": "Intermediate"
+    }
+    , 
+    {
+        "language": "English",
+        "fluency": "Intermediate"
+    }
+  ]
+}
+
+	</li>
 </ul>
